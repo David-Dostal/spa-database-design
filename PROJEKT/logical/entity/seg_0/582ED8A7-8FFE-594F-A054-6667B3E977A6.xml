@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="582ED8A7-8FFE-594F-A054-6667B3E977A6" name="Vybavení">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:32:55 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vybavení_id" id="4373AF74-61CF-7B98-AB76-475A22EDC3C6">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:39:31 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pobočka_id" id="4D813250-69FA-74F1-6A7D-EFAB1D47B466">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:55:59 UTC</createdTime>
+<generatorID>F25047B7-0898-DC8E-1420-6374DDBD6505</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>706565AC-4353-967D-B882-A721E6EA5714</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sprchy" id="F09B4994-B826-D100-49FB-C826F3D41567">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:27:16 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dámské toalety" id="B1CE3378-4AAD-AD83-B83D-A5544D96088B">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:27:38 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pánské toalety" id="D69C2360-C5CD-299A-43AB-479EA01ADC94">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:27:55 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skřínky na oblečení" id="281F007E-34E4-6402-856F-23DB737BE85D">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:28:02 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7FCFCB7-0386-CB0B-0E92-BB1C0F84F377" name="Vybavení PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:39:37 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4373AF74-61CF-7B98-AB76-475A22EDC3C6</attributeRef>
+<attributeRef>4D813250-69FA-74F1-6A7D-EFAB1D47B466</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

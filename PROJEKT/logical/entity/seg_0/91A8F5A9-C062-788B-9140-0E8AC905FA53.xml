@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91A8F5A9-C062-788B-9140-0E8AC905FA53" name="Sauna">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:33:28 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sauna_id" id="89626A6C-EC8F-AB0D-A907-7B3579B38215">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:42:08 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rozloha" id="948F9EF5-3880-8782-9146-EE9FE03209D8">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:44:11 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kapacita" id="B8C1B635-DEBD-061E-4486-D70D792B995A">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:44:17 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vybavení_id" id="DB841947-18B1-4EAF-65CA-DF61853544FB">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:00:51 UTC</createdTime>
+<generatorID>E471B23B-397D-390D-D7D8-7444DADF82AD</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>4373AF74-61CF-7B98-AB76-475A22EDC3C6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pobočka_id" id="6F99E124-90A1-3C45-5002-B9B332044480">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:00:51 UTC</createdTime>
+<generatorID>E471B23B-397D-390D-D7D8-7444DADF82AD</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>4D813250-69FA-74F1-6A7D-EFAB1D47B466</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ_sauny_id" id="69D8C077-A330-F428-840B-9E8708DF3519">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:14:26 UTC</createdTime>
+<generatorID>A353F071-0753-D7F7-DB91-81C0ECC55B76</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>C980644E-766A-6010-D686-F635FBBD12C6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mistr_id" id="7CDE8D4D-BBEA-2E04-F04C-4C6B92C26BBE">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:30:22 UTC</createdTime>
+<generatorID>2D359016-2D78-C730-2A3A-A05604435A95</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>CAAA1E96-3E9D-403B-E9DD-EE89262C5C89</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47E49F2E-1961-D2FB-F055-8AC2D91ED1B3" name="Sauna PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:42:13 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89626A6C-EC8F-AB0D-A907-7B3579B38215</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

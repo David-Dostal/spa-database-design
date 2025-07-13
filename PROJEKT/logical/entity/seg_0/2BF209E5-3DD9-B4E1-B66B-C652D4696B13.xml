@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BF209E5-3DD9-B4E1-B66B-C652D4696B13" name="Bazén">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:33:48 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Bazén_id" id="BEF2DFD9-E846-0A1E-A94C-7BE3EEA8E5B9">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:44:59 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rozloha" id="8903BAED-5B68-EA65-F3C4-6B12994FE568">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:45:07 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kapacita" id="29ED4419-3E0D-F861-3989-A2E2B553DF6B">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:45:12 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ bazénu" id="7FB7E3B8-BC28-73F5-A860-CA36AD172129">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:45:18 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vybavení_id" id="50B07E3D-BEF2-1820-8E23-82D735740EF0">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:02:25 UTC</createdTime>
+<generatorID>07CBB131-A170-C15D-10D3-25E9D59AF601</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>4373AF74-61CF-7B98-AB76-475A22EDC3C6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pobočka_id" id="92BE01F9-77F1-9296-8A7C-A834CCCFCB87">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:02:25 UTC</createdTime>
+<generatorID>07CBB131-A170-C15D-10D3-25E9D59AF601</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>4D813250-69FA-74F1-6A7D-EFAB1D47B466</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teplota_id" id="780FF344-F69F-8EE5-B1F6-AAD87629EFEA">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:27:01 UTC</createdTime>
+<generatorID>8FE5F438-4728-A915-D033-511712506C8B</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>D1667A26-AFEA-4027-8D68-B8FE47D0C5BC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98B1CC67-E142-27CA-E93B-E1D0CEB4BB66" name="Bazén PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:45:06 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEF2DFD9-E846-0A1E-A94C-7BE3EEA8E5B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

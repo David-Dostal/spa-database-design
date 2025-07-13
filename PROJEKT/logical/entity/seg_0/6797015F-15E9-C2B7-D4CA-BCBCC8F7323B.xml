@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6797015F-15E9-C2B7-D4CA-BCBCC8F7323B" name="Vůně">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:34:44 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vůně_id" id="347D44DD-05FC-B0C6-949B-7988E4199E9F">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:46 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Název" id="2B13902B-5E4E-7DB1-A99D-9C7C0A214D13">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:52 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83898652-7B49-3F3A-8E6C-025C6CFD367C" name="Vůně PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:50 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>347D44DD-05FC-B0C6-949B-7988E4199E9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

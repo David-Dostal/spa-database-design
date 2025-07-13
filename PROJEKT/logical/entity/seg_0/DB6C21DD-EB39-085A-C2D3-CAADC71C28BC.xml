@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB6C21DD-EB39-085A-C2D3-CAADC71C28BC" name="Typ sauny">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:33:36 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Typ_sauny_id" id="C980644E-766A-6010-D686-F635FBBD12C6">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:42:50 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Název" id="232DA90C-3458-61FB-A349-D5C814B17AE0">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:42:57 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Minimální teplota" id="C0EC7CFC-CF8F-EB37-6287-ACB2DD68494F">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:43:08 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maximální teplota" id="C6DCB157-BD6B-184F-92CB-9415B03881A8">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:43:36 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popis" id="D8A10F45-9F2D-545D-612E-8CB6B92783A4">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:43:42 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C575092-2A61-48E3-140B-07BDFBC62623" name="Typ sauny PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:43:01 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C980644E-766A-6010-D686-F635FBBD12C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

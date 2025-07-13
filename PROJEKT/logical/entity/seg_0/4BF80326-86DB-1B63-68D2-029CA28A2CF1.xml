@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BF80326-86DB-1B63-68D2-029CA28A2CF1" name="Pobočka">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:32:34 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pobočka_id" id="706565AC-4353-967D-B882-A721E6EA5714">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:37:38 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Otevírací doba" id="8C3E5CAE-88B3-0109-6DEF-E80C0A378517">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:38:08 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_id" id="E64DFE9F-8FD9-108E-91FE-3AD575414878">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:32:15 UTC</createdTime>
+<generatorID>CACD97E4-00E8-0096-9B3D-A9BD472FD45E</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>A3D78FF8-A9B3-9AB0-DCED-C8409D7B880D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Základní cena" id="4CAB73C0-FB5C-E88A-38AB-FF59EA1E96FA">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-07 19:51:34 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB8CE7B2-D892-0F59-25C7-5FD74C770677" name="Pobočka PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:37:48 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>706565AC-4353-967D-B882-A721E6EA5714</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

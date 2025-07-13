@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47911D8F-A876-5D6D-85B1-49E3927DC000" name="Ceremoniál">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:34:06 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ceremoniál_id" id="048CDD90-E909-AAB5-3A00-9F0CC80C2F11">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:49:30 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Název" id="2F883786-14DA-E858-D0E4-6E7703A4D03C">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:49:36 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Čas začátku" id="20731C19-6D60-F3B7-28BB-2B9FD65FA78D">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:49:57 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doba trvání" id="BDB78F2E-9460-BA61-311D-EC147DA23415">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:50:21 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Typ_ceremoniálu_id" id="8FAE9283-0FC6-8F93-C3B1-4685B2C0DA84">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:17:51 UTC</createdTime>
+<generatorID>41C01124-DD22-88DC-112A-E127FA2D3B6E</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>7B1E6F2F-82DB-241A-E1ED-4562AD92FE4D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mistr_id" id="14DE5ED7-B210-D294-8EE3-9DC39249FFB9">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:18:38 UTC</createdTime>
+<generatorID>9F86AB5B-3E4D-60AB-CC17-100F23F33BB7</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>CAAA1E96-3E9D-403B-E9DD-EE89262C5C89</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pořadník_id" id="9032F9BB-28DF-7600-0051-326996C1DD83">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:24:24 UTC</createdTime>
+<generatorID>92FD5CD4-C579-1C4D-00F6-365F5ABA9F18</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>936EC692-E547-775F-A23C-BE3A4273EA16</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B6B4D21-212D-9DE3-1229-51BC574E642A" name="Ceremoniál PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:49:35 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>048CDD90-E909-AAB5-3A00-9F0CC80C2F11</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

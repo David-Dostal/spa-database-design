@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85F381D6-0FAA-3E68-52C8-D52A7ED99C7B" name="Adresa">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:33:15 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Adresa_id" id="4416F7B0-F350-FEF0-5A27-4A8081EA56EE">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:46:50 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Město" id="ABB40FA6-8B88-F3B5-106E-1BC47C9C1992">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:46:54 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSČ" id="7441024F-8AC8-A525-F909-98A15C4A0FDF">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:01 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulice" id="821EC893-D4CC-6BBF-771D-3169EEB4327E">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:06 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Číslo popisné" id="C619BE6D-C286-5ADC-E688-11C3B1EC8AD6">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:10 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pobočka_id" id="96AB5F04-A890-80DF-E81B-721A860956D1">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:58:28 UTC</createdTime>
+<generatorID>71763421-27E2-B52A-A8D0-8A677BF832D3</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>706565AC-4353-967D-B882-A721E6EA5714</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBBDCA18-4A20-99FD-14CC-90F35C2ECC06" name="Adresa PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:46:53 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4416F7B0-F350-FEF0-5A27-4A8081EA56EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

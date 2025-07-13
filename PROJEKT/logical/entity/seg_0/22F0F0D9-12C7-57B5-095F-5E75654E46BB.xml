@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22F0F0D9-12C7-57B5-095F-5E75654E46BB" name="Teplota">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:33:59 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Teplota_id" id="D1667A26-AFEA-4027-8D68-B8FE47D0C5BC">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:53 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum" id="E72F87CF-A6D3-B4DA-C8F1-2D0C94279569">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:59 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Změřená teplota" id="1A32977C-674A-90F3-22CC-A0D988A612FC">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:48:08 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sauna_id" id="9958C585-0381-C2E6-E5A3-895D79983157">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:27:31 UTC</createdTime>
+<generatorID>B50C82F9-135E-30BC-2EEA-A61BA50A6293</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>89626A6C-EC8F-AB0D-A907-7B3579B38215</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1655923A-C6B8-5723-B440-2183C407E7F9" name="Teplota PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:47:57 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1667A26-AFEA-4027-8D68-B8FE47D0C5BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

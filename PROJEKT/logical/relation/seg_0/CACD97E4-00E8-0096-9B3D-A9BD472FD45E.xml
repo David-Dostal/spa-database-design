@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="CACD97E4-00E8-0096-9B3D-A9BD472FD45E">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 13:28:23 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<targetPk>0E2A4DF7-33E0-3A38-CEB5-FE1FFE804981</targetPk>
+<identifying>false</identifying>
+<nameOnSource>si určuje</nameOnSource>
+<nameOnTarget>je určena</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4BF80326-86DB-1B63-68D2-029CA28A2CF1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EE6CF607-096A-A15D-3FE6-0D26CCFE2779</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

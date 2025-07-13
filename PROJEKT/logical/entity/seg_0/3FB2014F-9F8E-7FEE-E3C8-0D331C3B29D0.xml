@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FB2014F-9F8E-7FEE-E3C8-0D331C3B29D0" name="Typ_zákazníka">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:35:04 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Typ_zákazníka_id" id="E43A3017-BD48-5D16-73ED-371C1C182265">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:53:44 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Název" id="34135F59-3160-535C-0873-C8DC3D740698">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:54:15 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_id" id="3EE268EE-6499-0CE8-7CE4-3D3A8A4BBB97">
+<createdBy>lama9</createdBy>
+<createdTime>2022-03-06 13:32:15 UTC</createdTime>
+<generatorID>EF1466FE-3F97-9593-5C3B-4A1A2FF7BA3E</generatorID>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<referedAttribute>A3D78FF8-A9B3-9AB0-DCED-C8409D7B880D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05353EEC-531C-710D-5B58-CF45FDF85FD1" name="Zákazník PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:54:15 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E43A3017-BD48-5D16-73ED-371C1C182265</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

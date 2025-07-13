@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD32FCCA-4771-D27A-D319-8BC26CE7C92B" name="Typ ceremoniálu">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:34:21 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Typ_ceremoniálu_id" id="7B1E6F2F-82DB-241A-E1ED-4562AD92FE4D">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:19 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Název" id="E3BA69EB-1E6A-537A-04AF-39FDEACF8C13">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:30 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF09C40A-38A8-6013-FD85-D1F55597177A" name="Typ ceremoniálu PK">
+<createdBy>xdostal8</createdBy>
+<createdTime>2022-03-02 12:51:29 UTC</createdTime>
+<ownerDesignName>PROJEKT</ownerDesignName>
+<engineerTo>
+<item key="EE394AF6-C7E3-9135-6AE1-6F830C88D143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B1E6F2F-82DB-241A-E1ED-4562AD92FE4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
